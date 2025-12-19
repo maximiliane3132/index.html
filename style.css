@@ -1,0 +1,87 @@
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    transition: 1s;
+}
+
+/* efecto */
+.navbar-nav .nav-link:hover {
+    color: gray;
+    transform: scale(1.2);
+}
+
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: black;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.fondo-degradado {
+
+    background: linear-gradient(to right, #fce941, #ffd000);
+}
+
+.contenedor-zoom {
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.img-zoom {
+    transition: transform 0.3s ease;
+}
+
+.contenedor-zoom:hover .img-zoom {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.contenedor-zoom {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-zoom {
+    transition: transform 0.3s ease;
+}
+
+.texto-zoom {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.card:hover .img-zoom {
+    transform: scale(1.1);/
+}
+
+.card:hover .texto-zoom {
+    transform: scale(1.1);
+    color: #ffc107 !important;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.social-card {
+    transition: transform 0.2s;
+}
+
+.social-card:hover {
+    transform: translateY(-5px);
+    background-color: #f8f9fa !important;
+}
+
+.carousel-item video,
+.carousel-item img {
+    height: 500px;
+    /* Define una altura fija */
+    object-fit: cover;
+    /* Recorta el contenido para llenar el espacio sin estirarse */
+}
