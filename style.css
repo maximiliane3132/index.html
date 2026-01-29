@@ -4,7 +4,7 @@
     transition: 1s;
 }
 
-/* efecto */
+
 .navbar-nav .nav-link:hover {
     color: gray;
     transform: scale(1.2);
@@ -81,7 +81,5 @@
 .carousel-item video,
 .carousel-item img {
     height: 500px;
-    /* Define una altura fija */
     object-fit: cover;
-    /* Recorta el contenido para llenar el espacio sin estirarse */
 }
